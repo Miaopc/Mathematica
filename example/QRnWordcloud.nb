@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       160,          7]
-NotebookDataLength[   1111970,      18726]
-NotebookOptionsPosition[   1110915,      18687]
-NotebookOutlinePosition[   1111251,      18702]
-CellTagsIndexPosition[   1111208,      18699]
+NotebookDataLength[   1144309,      19439]
+NotebookOptionsPosition[   1142973,      19391]
+NotebookOutlinePosition[   1143311,      19406]
+CellTagsIndexPosition[   1143268,      19403]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -202,7 +202,8 @@ Carolina\\nBenson, Pennsylvania\\nBenson, Utah\\nBenson, Vermont\\nBenson, \
 Wisconsin\\nBenson County, North Dakota\\nBenson Lake, a lake in \
 California\\nBenson neighborhood (Omaha, Nebraska)\\nBenson Township, \
 Minnesota\\n\\n\\n=== Schools ===\\nBenson Polytechnic High \"\>"], "Output",
- CellChangeTimes->{3.728273643928465*^9}]
+ CellChangeTimes->{
+  3.728273643928465*^9, {3.728388319538327*^9, 3.728388331395947*^9}}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -18683,10 +18684,713 @@ t+24V4T3t/41T7VM/LlRCic//RIMyQfgGR4A5zTA37EVQ+vugXbXDqZL1GLI
 1fCmfeNf/1hSkhph+BRGEl9A36J70DOL3PWVP8ZQbirGA2yxS3a2iJIPr/x/
 zL/9LxM/8Vs=\
 \>"]]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.728388347196636*^9, 3.7283883590288057`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"WordCloud", "[", 
+  RowBox[{"wc1", ",", " ", 
+   GraphicsBox[{GeometricTransformationBox[InsetBox[
+       StyleBox["\[WolframLanguageLogo]",
+        StripOnInput->False,
+        FontFamily->"Times",
+        FontSize->160], {1, 1.5}], {{{
+       0.30901699437494745`, -0.9510565162951535}, {0.9510565162951535, 
+       0.30901699437494745`}}, {0, 0}}], GeometricTransformationBox[InsetBox[
+       StyleBox["\[WolframLanguageLogo]",
+        StripOnInput->False,
+        FontFamily->"Times",
+        FontSize->
+         160], {1, 1.5}], {{{-0.8090169943749475, -0.5877852522924731}, {
+       0.5877852522924731, -0.8090169943749475}}, {0, 0}}], 
+     GeometricTransformationBox[InsetBox[
+       StyleBox["\[WolframLanguageLogo]",
+        StripOnInput->False,
+        FontFamily->"Times",
+        FontSize->160], {1, 1.5}], {{{-0.8090169943749475, 
+       0.5877852522924731}, {-0.5877852522924731, -0.8090169943749475}}, {0, 
+       0}}], GeometricTransformationBox[InsetBox[
+       StyleBox["\[WolframLanguageLogo]",
+        StripOnInput->False,
+        FontFamily->"Times",
+        FontSize->160], {1, 1.5}], {{{0.30901699437494745`, 
+       0.9510565162951535}, {-0.9510565162951535, 0.30901699437494745`}}, {0, 
+       0}}], GeometricTransformationBox[InsetBox[
+       StyleBox["\[WolframLanguageLogo]",
+        StripOnInput->False,
+        FontFamily->"Times",
+        FontSize->160], {1, 1.5}], {{{1, 0}, {0, 1}}, {0, 0}}]}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.728388356219645*^9, 3.728388363066121*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{InsetBox[
+    StyleBox["\<\"Benson\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.2892561983471075],
+     FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, -83}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"Saskatchewan\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05371900826446281],
+     FontColor->RGBColor[0.772079, 0.431554, 0.102387]], {-43, 69}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"neighborhood\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[
+      0.8613800418100862, 0.48092002787339083`, 0.02824203762907758]], {-39, -57},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"Pennsylvania\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[
+      0.35558897405758294`, 0.5505288207539337, 0.8417067688690995]], {-77, -6},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"Minnesota\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05371900826446281],
+     FontColor->RGBColor[0.922526, 0.385626, 0.209179]], {-81, 12}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"Polytechnic\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[0.7132613816472081, 0.358, 0.5392132590042952]], {-71, -36},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"municipality\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[0.7748409210981391, 0.358, 0.4444755060028629]], {-12, 83},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"Geography\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[
+      0.6753413537738198, 0.3589675436319385, 0.5991466155654507]], {-83, -21},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"Township\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[
+      0.23716678280579248`, 0.645266573755366, 0.699600139366951]], {-81, 28},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"Oxfordshire\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[
+      0.8878600487784333, 0.33792799024431336`, 0.2577332520359445]], {-75, 46},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"Arizona\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05371900826446281],
+     FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {75, -38}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"Kingdom\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[
+      0.9874666782805795, 0.6948333914028977, 0.033839968642435214`]], {65, 48},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"Wisconsin\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[0.6361597700445392, 0.7170733077827265, 0.]], {87, -23},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"biggest\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[0.915, 0.3325, 0.2125]], {77, 35}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"United\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05371900826446281],
+     FontColor->RGBColor[0.363898, 0.618501, 0.782349]], {74, -52}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"County\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[
+      0.8439466852489265, 0.3467106629502147, 0.3309221912517893]], {41, 77}, 
+    Center, Automatic], InsetBox[
+    StyleBox["\<\"Nebraska\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[
+      0.16397784358994957`, 0.7038177251280403, 0.6117734123079395]], {72, 61},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"caught\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[
+      0.5833680111493557, 0.4126186601628758, 0.8290799721266107]], {95, 6}, 
+    Center, Automatic], InsetBox[
+    StyleBox["\<\"California\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[
+      0.9728288904374106, 0.621644452187053, 0.07336199581899142]], {2, 96}, 
+    Center, Automatic], InsetBox[
+    StyleBox["\<\"North\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05371900826446281],
+     FontColor->RGBColor[0.528488, 0.470624, 0.701351]], {-59, 84}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"Vermont\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[
+      0.6536293927965667, 0.37163285420200276`, 0.6534265180085832]], {100, -10},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"common\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[0.8996399512215667, 0.7463488834690629, 0.]], {51, 90},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"Schools\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[0.5472001045252132, 0.43417993728487203`, 0.85]], {-46, 98},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"Carolina\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[0.28026441037696703`, 0.715, 0.4292089322474965]], {-3, 109},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"Animals\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[0.571589, 0.586483, 0.]], {84, 76}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"Lake\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05371900826446281],
+     FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {102, 22}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"Canada\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[0.736782672705901, 0.358, 0.5030266573755369]], {52, 101},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"Omaha\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[0.7678998606330495, 0.7317110956258943, 0.]], {-98, -47},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"Dakota\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[
+      0.28240003484173815`, 0.6090799721266095, 0.7538800418100857]], {1, -114},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"Amtrak\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[0.647624, 0.37816, 0.614037]], {-42, 111}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"station\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[
+      0.8168067340273636, 0.3521386531945273, 0.3761554432877274]], {-97, 59},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"Places\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[
+      0.9637822400302223, 0.5764112001511111, 0.0977879519184]], {-35, -115}, 
+    Center, Automatic], InsetBox[
+    StyleBox["\<\"States\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[0.9810598048862722, 0.7553955338762525, 0.]], {38, 114},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"hamlet\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[0.5407932311309059, 0.715, 0.09762679674248334]], {44, -115},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"carp\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[
+      0.838355547812947, 0.44746667828057946`, 0.0208888695323676]], {103, 51},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"Britain\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[0.40082222609352647`, 0.5220066643438841, 0.85]], {-93, 86},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"High\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[
+      0.8857244243136628, 0.3764133635295058, 0.1393110607841571]], {110, -55},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"Illinois\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[0.47401116530937026`, 0.47809330081437784`, 0.85]], {91, 90},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"York\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[
+      0.9038177251280404, 0.3492734123079395, 0.18454431282010084`]], {-102, 72},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"refer\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[0.37977756485605163`, 0.715, 0.3025558265468435]], {-83, 99},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"New\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[
+      0.6184987019729621, 0.39212575718243875`, 0.7412532450675947]], {-66, -113},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"Utah\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[
+      0.9052934053395919, 0.510195603559728, 0.06776406480563275]], {-72, 113},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"rural\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[
+      0.8564488486273256, 0.42032672705901153`, 0.06612212156831418]], {88, 104},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"fish\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[
+      0.9324333565611593, 0.5282889043741062, 0.0921900209050434]], {-16, -25},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"35\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04132231404958678],
+     FontColor->RGBColor[1, 0.75, 0]], {-26, 21}, Center, Automatic]},
+  DefaultBaseStyle->{"Graphics", FontFamily -> "Helvetica"},
+  Method->{
+   "DefaultBoundaryStyle" -> Automatic, "DefaultPlotStyle" -> Automatic},
+  PlotRange->{{-121., 121.}, {-123., 123.}}]], "Output",
+ CellChangeTimes->{3.7283883804641027`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"WordCloud", "[", 
+  RowBox[{"wc1", ",", " ", 
+   GraphicsBox[
+    TagBox[RasterBox[CompressedData["
+1:eJztnQuUFNWZx6sfzJMZZmBggIEJqCOv4BgfoITwMEYPkedAYnZxcdEgyW4Q
+Y4waz9FVl5izSRaNDzZmF5cVQV2XPRGjq1mj7iYKarJZ1hBlDaLBldfwmgFm
+uruq/ts1PT093VPVXVV9b91b1d/P86k03V3VXb/+6r7v+OvWtt0QVhTlWxXJ
+f7WtvG3uzTev/M7SuuQfvnTjt76++sZVX5134y2rVq+6+ZLrIskH25OxJRlR
+pQdQUFBQUFBQUFBQUFBQUFBQUFBQUEgVZRE8faYMhD00TYUSj0HpOgOlswPK
+8aMIHfgYob17EP6f3yK881eIvPQcols3IfrwekTvuQPlX1+J8kVXomzaVJQ3
+1SMUkuC6yxzkpMfoiHQdQ+W7b6PqZ09h8Pq7Mfj6ZaiZPhHVNVHxPsgQ5KQ0
+KOoZDHlvB+o2/wh1Ny7H0IvGQYlI4Ag5SfSho+LEPgx7fhMabrkGjZMbxPtC
+ThL9ULQ46ve+jsYHb8PoWWcFt1xKTvoSJVnXqtv/JsasX4vm1oDlT3LS9yja
+GYx+8ymM++pcVFRJ4BQ5SfSho/bQb3DOvdcgPHKQeLfISaIf5ac+wKT116Os
+0YftS+RkoKns2INPr1sGZbAErpGTRB86hu5/BeetON8fdXVyUiJ0ru+uaN1o
+efl7iJ5TKd47clJitJ7QdcNH1ZMjVnbsxvQ106DImjPJSeHoyX80XU3+O+HZ
+MRWtC1Oe/TZqh4fFO0hOOobvHbX/UTRPjtT/mMM/2o7wtDrxHpKTgtFNAvDK
+/lwqOn+HOcvPFe8iOVkUTu1JlRfTr+zvIXIeF4OSOIjLbr9EvI/kpEP0HrfS
+4eiVulletHqOGBT1OD73gyvE133ISYekvNFtutOXHfX8Pg58hRgUrROz7v+C
+WC/JSRv090mDEye13ufZdzJ9PHEo2gnMvW8WOSktZvUR+04mspxMv5+dY4pF
+UQ/ji2smk5PSYe6jE2five07A8uT+ere4p00iHTvwfz5jeSkVBTrpJ500uze
+7cRPsdS2v4gxLR6PLSIn82DmhDsn8/unIV1O7V9mlcFJ4xwm7bwL5ZXBd/K0
+7l0/GnsKu5JuL0qYtktaOZkJXU/e9fXDydjF4fydYYzduPL7nw28k116ceMN
+Mu2EWl+w7JuzYV2exzOhDqjbWHuYCrVfaIjpseR39SHO6G8n3+u/3H0YBkS6
+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
+IjDx/whvrc8=
+      "], {{0, 236}, {165, 0}}, {0, 255},
+      ColorFunction->RGBColor],
+     BoxForm`ImageTag[
+     "Byte", ColorSpace -> "RGB", Interleaving -> True, MetaInformation -> 
+      Association[
+       "Comments" -> Association["Comment" -> "Created with GIMP"]]],
+     Selectable->False],
+    DefaultBaseStyle->"ImageGraphics",
+    ImageSizeRaw->{165, 236},
+    PlotRange->{{0, 165}, {0, 236}}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.728390316385878*^9, 3.728390336025038*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{InsetBox[
+    StyleBox["\<\"Benson\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.26717557251908397`],
+     FontColor->RGBColor[0.368417, 0.506779, 0.709798]], 
+    NCache[{-3, Rational[-69, 2]}, {-3, -34.5}], Center, Automatic], 
+   InsetBox[
+    StyleBox["\<\"Saskatchewan\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04961832061068702],
+     FontColor->RGBColor[0.772079, 0.431554, 0.102387]], 
+    NCache[{3, Rational[3, 2]}, {3, 1.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"neighborhood\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[
+      0.8613800418100862, 0.48092002787339083`, 0.02824203762907758]], 
+    NCache[{-1, Rational[41, 2]}, {-1, 20.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"Pennsylvania\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[
+      0.35558897405758294`, 0.5505288207539337, 0.8417067688690995]], 
+    NCache[{9, Rational[71, 2]}, {9, 35.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"Minnesota\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04961832061068702],
+     FontColor->RGBColor[0.922526, 0.385626, 0.209179]], 
+    NCache[{-4, Rational[99, 2]}, {-4, 49.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"Polytechnic\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[0.7132613816472081, 0.358, 0.5392132590042952]], 
+    NCache[{-53, Rational[63, 2]}, {-53, 31.5}], Center, Automatic], 
+   InsetBox[
+    StyleBox["\<\"municipality\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[0.7748409210981391, 0.358, 0.4444755060028629]], 
+    NCache[{65, Rational[-17, 2]}, {65, -8.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"Geography\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[
+      0.6753413537738198, 0.3589675436319385, 0.5991466155654507]], 
+    NCache[{0, Rational[131, 2]}, {0, 65.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"Township\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[
+      0.23716678280579248`, 0.645266573755366, 0.699600139366951]], 
+    NCache[{-61, Rational[41, 2]}, {-61, 20.5}], Center, Automatic], 
+   InsetBox[
+    StyleBox["\<\"Oxfordshire\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[
+      0.8878600487784333, 0.33792799024431336`, 0.2577332520359445]], 
+    NCache[{-18, Rational[-21, 2]}, {-18, -10.5}], Center, Automatic], 
+   InsetBox[
+    StyleBox["\<\"Arizona\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04961832061068702],
+     FontColor->RGBColor[0.880722, 0.611041, 0.142051]], 
+    NCache[{3, Rational[-133, 2]}, {3, -66.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"Kingdom\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[
+      0.9874666782805795, 0.6948333914028977, 0.033839968642435214`]], 
+    NCache[{-67, Rational[13, 2]}, {-67, 6.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"Wisconsin\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[0.6361597700445392, 0.7170733077827265, 0.]], 
+    NCache[{3, Rational[157, 2]}, {3, 78.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"biggest\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[0.915, 0.3325, 0.2125]], 
+    NCache[{55, Rational[49, 2]}, {55, 24.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"United\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04961832061068702],
+     FontColor->RGBColor[0.363898, 0.618501, 0.782349]], 
+    NCache[{55, Rational[99, 2]}, {55, 49.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"County\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[
+      0.8439466852489265, 0.3467106629502147, 0.3309221912517893]], 
+    NCache[{-57, Rational[97, 2]}, {-57, 48.5}], Center, Automatic], 
+   InsetBox[
+    StyleBox["\<\"Nebraska\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[
+      0.16397784358994957`, 0.7038177251280403, 0.6117734123079395]], 
+    NCache[{-6, Rational[-157, 2]}, {-6, -78.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"caught\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[
+      0.5833680111493557, 0.4126186601628758, 0.8290799721266107]], 
+    NCache[{-49, Rational[131, 2]}, {-49, 65.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"California\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[
+      0.9728288904374106, 0.621644452187053, 0.07336199581899142]], 
+    NCache[{70, Rational[75, 2]}, {70, 37.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"North\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04961832061068702],
+     FontColor->RGBColor[0.528488, 0.470624, 0.701351]], 
+    NCache[{50, Rational[129, 2]}, {50, 64.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"Vermont\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[
+      0.6536293927965667, 0.37163285420200276`, 0.6534265180085832]], 
+    NCache[{-54, Rational[-129, 2]}, {-54, -64.5}], Center, Automatic], 
+   InsetBox[
+    StyleBox["\<\"common\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[0.8996399512215667, 0.7463488834690629, 0.]], 
+    NCache[{54, Rational[-131, 2]}, {54, -65.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"Schools\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[0.5472001045252132, 0.43417993728487203`, 0.85]], 
+    NCache[{5, Rational[-179, 2]}, {5, -89.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"Carolina\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[0.28026441037696703`, 0.715, 0.4292089322474965]], 
+    NCache[{-2, Rational[183, 2]}, {-2, 91.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"Animals\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[0.571589, 0.586483, 0.]], 
+    NCache[{-44, Rational[157, 2]}, {-44, 78.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"Lake\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04961832061068702],
+     FontColor->RGBColor[0.560181, 0.691569, 0.194885]], 
+    NCache[{-46, Rational[-157, 2]}, {-46, -78.5}], Center, Automatic], 
+   InsetBox[
+    StyleBox["\<\"Canada\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[0.736782672705901, 0.358, 0.5030266573755369]], 
+    NCache[{44, Rational[-157, 2]}, {44, -78.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"Omaha\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[0.7678998606330495, 0.7317110956258943, 0.]], 
+    NCache[{52, Rational[161, 2]}, {52, 80.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"Dakota\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[
+      0.28240003484173815`, 0.6090799721266095, 0.7538800418100857]], 
+    NCache[{-36, Rational[-183, 2]}, {-36, -91.5}], Center, Automatic], 
+   InsetBox[
+    StyleBox["\<\"Amtrak\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[0.647624, 0.37816, 0.614037]], 
+    NCache[{-42, Rational[183, 2]}, {-42, 91.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"station\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[
+      0.8168067340273636, 0.3521386531945273, 0.3761554432877274]], 
+    NCache[{-1, Rational[-201, 2]}, {-1, -100.5}], Center, Automatic], 
+   InsetBox[
+    StyleBox["\<\"Places\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[
+      0.9637822400302223, 0.5764112001511111, 0.0977879519184]], 
+    NCache[{49, Rational[-179, 2]}, {49, -89.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"States\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[0.9810598048862722, 0.7553955338762525, 0.]], 
+    NCache[{-93, Rational[89, 2]}, {-93, 44.5}], Center, Automatic], 
+   InsetBox[
+    StyleBox["\<\"hamlet\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[0.5407932311309059, 0.715, 0.09762679674248334]], 
+    NCache[{40, Rational[187, 2]}, {40, 93.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"carp\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[
+      0.838355547812947, 0.44746667828057946`, 0.0208888695323676]], 
+    NCache[{-60, Rational[-17, 2]}, {-60, -8.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"Britain\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[0.40082222609352647`, 0.5220066643438841, 0.85]], 
+    NCache[{-1, Rational[209, 2]}, {-1, 104.5}], Center, Automatic], 
+   InsetBox[
+    StyleBox["\<\"High\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[
+      0.8857244243136628, 0.3764133635295058, 0.1393110607841571]], 
+    NCache[{-100, Rational[9, 2]}, {-100, 4.5}], Center, Automatic], 
+   InsetBox[
+    StyleBox["\<\"Illinois\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[0.47401116530937026`, 0.47809330081437784`, 0.85]], 
+    NCache[{-96, Rational[67, 2]}, {-96, 33.5}], Center, Automatic], 
+   InsetBox[
+    StyleBox["\<\"York\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[
+      0.9038177251280404, 0.3492734123079395, 0.18454431282010084`]], 
+    NCache[{-80, Rational[129, 2]}, {-80, 64.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"refer\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[0.37977756485605163`, 0.715, 0.3025558265468435]], 
+    NCache[{93, Rational[101, 2]}, {93, 50.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"New\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[
+      0.6184987019729621, 0.39212575718243875`, 0.7412532450675947]], 
+    NCache[{-101, Rational[45, 2]}, {-101, 22.5}], Center, Automatic], 
+   InsetBox[
+    StyleBox["\<\"Utah\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[
+      0.9052934053395919, 0.510195603559728, 0.06776406480563275]], 
+    NCache[{35, Rational[-201, 2]}, {35, -100.5}], Center, Automatic], 
+   InsetBox[
+    StyleBox["\<\"rural\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[
+      0.8564488486273256, 0.42032672705901153`, 0.06612212156831418]], 
+    NCache[{85, Rational[129, 2]}, {85, 64.5}], Center, Automatic], InsetBox[
+    StyleBox["\<\"fish\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[
+      0.9324333565611593, 0.5282889043741062, 0.0921900209050434]], 
+    NCache[{26, Rational[-21, 2]}, {26, -10.5}], Center, Automatic], 
+   InsetBox[
+    StyleBox["\<\"35\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03816793893129771],
+     FontColor->RGBColor[1, 0.75, 0]], 
+    NCache[{61, Rational[9, 2]}, {61, 4.5}], Center, Automatic]},
+  DefaultBaseStyle->{"Graphics", FontFamily -> "Helvetica"},
+  Method->{
+   "DefaultBoundaryStyle" -> Automatic, "DefaultPlotStyle" -> Automatic},
+  PlotRange->{{-131., 131.}, {-187.5, 187.5}}]], "Output",
+ CellChangeTimes->{3.728390361602963*^9}]
 }, Open  ]]
 },
 WindowSize->{1184, 560},
-WindowMargins->{{0, Automatic}, {0, Automatic}},
+WindowMargins->{{2, Automatic}, {-30, Automatic}},
 FrontEndVersion->"11.0 for Linux ARM (32-bit) (January 17, 2017)",
 StyleDefinitions->"Default.nb"
 ]
@@ -18707,26 +19411,35 @@ Cell[879, 31, 7818, 146, 143, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[8734, 182, 364, 9, 56, "Input"],
-Cell[9101, 193, 845, 11, 953, "Output"]
+Cell[9101, 193, 894, 12, 953, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[9983, 209, 3896, 68, 99, InheritFromParent],
-Cell[13882, 279, 10636, 253, 345, "Output"]
+Cell[10032, 210, 3896, 68, 99, "Input"],
+Cell[13931, 280, 10636, 253, 345, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[24555, 537, 2425, 48, 51, "Input"],
-Cell[26983, 587, 751830, 12375, 351, "Output"]
+Cell[24604, 538, 2425, 48, 51, "Input"],
+Cell[27032, 588, 751830, 12375, 351, "Output"]
 }, Open  ]],
-Cell[778828, 12965, 92, 1, 32, InheritFromParent],
+Cell[778877, 12966, 92, 1, 32, "Input"],
 Cell[CellGroupData[{
-Cell[778945, 12970, 118426, 1948, 55, "Input"],
-Cell[897374, 14920, 68313, 1206, 375, 12903, 296, "CachedBoxData", "BoxData", \
+Cell[778994, 12971, 118426, 1948, 55, "Input"],
+Cell[897423, 14921, 68313, 1206, 375, 12903, 296, "CachedBoxData", "BoxData", \
 "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[965724, 16131, 408, 9, 34, "Input"],
-Cell[966135, 16142, 144764, 2542, 374, 23947, 560, "CachedBoxData", \
+Cell[965773, 16132, 408, 9, 34, "Input"],
+Cell[966184, 16143, 144764, 2542, 374, 23947, 560, "CachedBoxData", \
 "BoxData", "Output"]
+}, Open  ]],
+Cell[1110963, 18688, 94, 1, 32, "Input"],
+Cell[CellGroupData[{
+Cell[1111082, 18693, 1540, 34, 125, "Input"],
+Cell[1112625, 18729, 10477, 251, 381, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1123139, 18985, 7754, 133, 76, "Input"],
+Cell[1130896, 19120, 12061, 268, 447, "Output"]
 }, Open  ]]
 }
 ]
